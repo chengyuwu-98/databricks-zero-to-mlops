@@ -34,7 +34,3 @@ psdf.describe()
 # COMMAND ----------
 
 display(psdf)
-
-# COMMAND ----------
-
-
