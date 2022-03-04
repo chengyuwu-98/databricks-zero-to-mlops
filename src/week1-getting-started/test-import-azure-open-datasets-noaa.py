@@ -1,6 +1,5 @@
 # Databricks notebook source
 from azureml.opendatasets import NoaaIsdWeather
-
 from datetime import datetime
 from dateutil import parser
 from dateutil.relativedelta import relativedelta
@@ -21,6 +20,7 @@ display(df.limit(10))
 # COMMAND ----------
 
 import numpy as np
+import pyspark
 import pyspark.pandas as ps
 
 # COMMAND ----------

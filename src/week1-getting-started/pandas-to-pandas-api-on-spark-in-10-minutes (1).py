@@ -1,10 +1,6 @@
 # Databricks notebook source
 # MAGIC %md
 # MAGIC # pandas to pandas API on Spark in 10 minutes
-# MAGIC 
-# MAGIC 
-# MAGIC 
-# MAGIC import url for this notebook:  https://docs.databricks.com/_static/notebooks/pandas-to-pandas-api-on-spark-in-10-minutes.html
 
 # COMMAND ----------
 
@@ -29,7 +25,7 @@ pser = pd.Series([1, 3, 5, np.nan, 6, 8])
 # Create a pandas-on-Spark Series
 psser = ps.Series([1, 3, 5, np.nan, 6, 8])
 # Create a pandas-on-Spark Series by passing a pandas Series
-#psser = ps.Series(pser)
+psser = ps.Series(pser)
 psser = ps.from_pandas(pser)
 
 # COMMAND ----------
@@ -50,10 +46,10 @@ psser.sort_index()
 pdf = pd.DataFrame({'A': np.random.rand(5),
                     'B': np.random.rand(5)})
 # Create a pandas-on-Spark DataFrame
-#psdf = ps.DataFrame({'A': np.random.rand(5),
-#                     'B': np.random.rand(5)})
+psdf = ps.DataFrame({'A': np.random.rand(5),
+                     'B': np.random.rand(5)})
 # Create a pandas-on-Spark DataFrame by passing a pandas DataFrame
-#psdf = ps.DataFrame(pdf)
+psdf = ps.DataFrame(pdf)
 psdf = ps.from_pandas(pdf)
 
 # COMMAND ----------
@@ -128,10 +124,6 @@ psser = ps.Series([100, 200, 300, 400, 500], index=[0, 1, 2, 3, 4])
 
 # COMMAND ----------
 
-psser
-
-# COMMAND ----------
-
 # Those are needed for managing options
 from pyspark.pandas.config import set_option, reset_option
 set_option("compute.ops_on_diff_frames", True)
@@ -169,8 +161,7 @@ psdf.apply(square)
 # COMMAND ----------
 
 # Working properly since size of data <= compute.shortcut_limit (1000)
-#ps.DataFrame({'A': range(1000)})
-#ps.DataFrame({'A': range(1000)}).apply(lambda col: col.max())
+ps.DataFrame({'A': range(1000)}).apply(lambda col: col.max())
 
 # COMMAND ----------
 
