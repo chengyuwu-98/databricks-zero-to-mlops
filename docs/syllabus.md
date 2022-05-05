@@ -1,9 +1,7 @@
-# MLOps from Zero with Databricks
+[🖥️ Course Intro Video](https://drive.google.com/file/d/1j-9NIFiDErluv4mgVWfgXkGiA2jK3Ndp/view?usp=sharing)
 
-A four week course on MLOps with Spark and Databricks.  By the end of this course, you will be able to develop ML models using standardized workflows for data processing and model management and maintenance using open-source tools.  This is accomplished by using PySpark and MLflow to build scalable and reproducible solutions using MLOps methodologies.
+[👨‍🏫 Course Intro Slides](https://docs.google.com/presentation/d/1Outh5yuWk0CBXMpp6JeY0u6aqPJH1ilcMJGPUN_74gc/edit?usp=sharing)
 
-[Course Intro Video](https://drive.google.com/file/d/1j-9NIFiDErluv4mgVWfgXkGiA2jK3Ndp/view?usp=sharing)
-[Course Intro Slides](https://docs.google.com/presentation/d/1Outh5yuWk0CBXMpp6JeY0u6aqPJH1ilcMJGPUN_74gc/edit?usp=sharing)
 ## Logistics
 
 * Two Three-Hour Weekly Sessions
@@ -11,14 +9,13 @@ A four week course on MLOps with Spark and Databricks.  By the end of this cours
 * Use [Azure Open Datasets](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-catalog#AzureDatabricks)
 * [Final Three Sessions](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/docs/final-three-sessions.md)
 
-## Week by Week Schedule
+## Schedule
 
-### Week One:  Getting Started with Spark for MLOPs
+### Week One: [Getting Started with Spark for MLOPs](https://github.com/FourthBrain/HAL-MLOps/blob/main/docs/week1-notes.md#workshop-b-getting-started-with-continuous-integration)
 
-#### Topics
-
-* Topic:  Getting Started with Databricks and Spark
-* Topic:  Getting Started with Continuous Integration
+#### Primary Tools
+* [PySpark](https://databricks.com/glossary/pyspark)
+* [Databricks](https://databricks.com/company/about-us)
 
 #### Learning Objectives
 
@@ -26,98 +23,17 @@ A four week course on MLOps with Spark and Databricks.  By the end of this cours
 *   Compose Databricks/Spark Cluster Solutions
 *   Evaluate best practices for PySpark software engineering
 
-#### Part A Workshop
+### Week Two:  [Spark MLflow Tracking](https://github.com/FourthBrain/HAL-MLOps/blob/main/docs/week2-notes.md)
 
-* [Getting Started with Databricks and Spark](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/docs/week1-notes.md#workshop-a--getting-started-with-databricks-and-spark)
-
-#### Part B Workshop
-
-* [Getting Started with Continuous Integration for MLOps](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/docs/week1-notes.md#workshop-b-getting-started-with-continuous-integration)
-
-#### Readings/Media
-
-* [Quickstart Azure Databricks](https://docs.microsoft.com/en-us/azure/databricks/scenarios/quickstart-create-databricks-workspace-portal?tabs=azure-portal)
-
-##### Create tables directly from imported data
-
-* [Introduction to importing, reading, and modifying data](https://docs.microsoft.com/en-us/azure/databricks/data/data)
-* [Databases and tables](https://docs.microsoft.com/en-us/azure/databricks/data/tables)
-* [Metastores](https://docs.microsoft.com/en-us/azure/databricks/data/metastores/)
-
-##### Ingest data into Azure Databricks
-
-* [Databricks integrations](https://docs.microsoft.com/en-us/azure/databricks/integrations/)
-
-##### Access data in Apache Spark formats and from external data sources
-
-* [Data sources](https://docs.microsoft.com/en-us/azure/databricks/data/data-sources/)
-* [Delta Lake guide](https://docs.microsoft.com/en-us/azure/databricks/delta/)
-
-#### Labs
-
-* [Github Actions pytest](https://github.com/noahgift/github-actions-pytest)
-* [quickstart-create-databricks-workspace-portal](https://docs.microsoft.com/azure/azure-databricks/quickstart-create-databricks-workspace-portal)
-* [Example databricks notebooks](https://github.com/FourthBrain/databricks-zero-to-mlops/tree/main/src/week1-getting-started)
-
-#### Discussions
-
-* Why is CI (Continuous Integration) a foundational component for MLOps?
-* Why is logging, monitoring, and instrumentation so critical with distributed systems like Spark?
-* What is the advantage of scheduling a notebook job in Databricks Spark?
-* What are two ways to use data in Databricks Spark?
-
-#### Assignments (Demo)
-
-* Build out your own Github repository with a Python scaffold of:  `Makefile`, `requirements.txt`, a source file, and a test file and do:  `make lint && make test && make format`.
-* Add a Jupyter Notebook to your Continuous Integration setup and test it with `pytest --nbval`. [nbval plugin reference](https://github.com/computationalmodelling/nbval). 
-* Perform Exploratory Data Analysis with a Databricks Spark Cluster using the [Azure Open Datasets](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-catalog). imported data or Databricks sample datasets. Please try both regular Pyspark as well as the new Pandas API.
-* Schedule a notebook job to run nightly at midnight
-* Create source code repository and integrate it with Databricks and build our a notebook in it you commit.
-* (Optional-Advanced):  Ingest your own dataset to DBFS, then do EDA
-
-### Week Two:  Spark MLflow Tracking
-
-#### Topics
-
-* Topic:  Getting with ML & MLflow tracking
-* Topic:  Getting started with containerizing Microservices
+#### Primary Tools
+* [MLflow Tracking](https://www.mlflow.org/docs/latest/tracking.html)
+* [mlflow.spark](https://www.mlflow.org/docs/latest/python_api/mlflow.spark.html)
 
 #### Learning Objectives
 
 *   Compose Spark MLflow tracking solutions
 *   Compose Containerized Microservice solutions
 
-#### Part A Workshop
-
-* [Getting with ML & MLflow tracking](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/docs/week2-notes.md#workshop-a--getting-with-mlflow-tracking)
-
-#### Part B Workshop
-* [Getting started with containerizing Microservices](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/docs/week2-notes.md#workshop-b-getting-started-with-containerizing-microservices)
-
-#### Readings/Media
-
-* [MLflow tracking](https://www.mlflow.org/docs/latest/tracking.html)
-* [Databricks MLflow tracking](https://docs.databricks.com/applications/mlflow/tracking.html)
-* [.NET 6 on AWS for Containers using Cloud9](https://github.com/noahgift/dot-net-6-aws)
-* [Python MLOps Cookbook](https://github.com/noahgift/Python-MLOps-Cookbook)
-
-
-#### Lab
-
-* [MLFlow Project Best Practices-End to End Fake News Pipeline](https://github.com/noahgift/mlflow-project-best-practices)
-
-#### Discussions
-
-* How could experiment tracking increase productivity in a Data Science team?
-* Why use automated, parallel hyperparameter tuning with MLFlow?
-
-#### Assignments (Demo)
-
-* Using an Azure Open Dataset, perform several MLflow tracking experiments and identify the best runs.
-* Using the [MLFlow Quickstart ML Notebook](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/src/week2-mlflow/ML%20Quickstart:%20Model%20Training.py), experiment with Hyperparameter algorithms and parallelization (i.e 2 vs 8). 
-* Perform an AutoML Experiment either on your own dataset or a built in dataset.  After you find the best model check in this notebook into your Repo. 
-* Setup your own end to end Ingest to AutoML to Endpoint to Script and Test it in Github Actions.  Example project here: https://github.com/noahgift/mlflow-project-best-practices
-* Deploy a containerized application to a Cloud Provider or Local Datacenter.
 
 ### Week Three: Spark MLflow Projects
 
