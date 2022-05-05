@@ -1,4 +1,6 @@
 # Week 1
+* [👨‍🏫 Course Intro Slides](https://docs.google.com/presentation/d/1Outh5yuWk0CBXMpp6JeY0u6aqPJH1ilcMJGPUN_74gc/edit?usp=sharing)
+* [⏺️ Recording, March 2, 2022](https://vimeo.com/686322038)
 
 ## Workshop A:  Getting Started with Databricks and Spark
 
