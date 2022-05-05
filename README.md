@@ -21,3 +21,4 @@ By the end of this course, you will be able to develop ML models using standardi
 * [🖥️ MLOps Platforms from Zero to Databricks by Noah Gift](https://learning.oreilly.com/videos/mlops-platforms-from/032232022VIDEOPAIML/) (2 hr, 26 min)
 * [👨‍🏫 Cloud Computing for Data Duke Course by Noah Gift](https://github.com/noahgift/cloud-data-analysis-at-scale)
 * [📚 Learning Spark 2nd Edition by Jules Damji, et al.](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf)
+* [🤖 Recommended Course Datasets](https://github.com/FourthBrain/HAL-MLOps/blob/main/docs/coursedatasets.md)
