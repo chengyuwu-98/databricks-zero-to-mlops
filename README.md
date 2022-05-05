@@ -9,7 +9,7 @@
 
 By the end of this course, you will be able to develop ML models using standardized workflows for data processing and model management and maintenance using open-source tools.  This is accomplished by using [PySpark](https://databricks.com/glossary/pyspark) and [MLflow](https://mlflow.org/) to build scalable and reproducible solutions using MLOps methodologies.
 
-## [📝 Syllabus](docs/syllabus.md)
+## [📝 Syllabus & Course Content](docs/syllabus.md)
 
 ## Pre-Course Content
 
