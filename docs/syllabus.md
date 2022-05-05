@@ -1,13 +1,6 @@
-[🖥️ Course Intro Video](https://drive.google.com/file/d/1j-9NIFiDErluv4mgVWfgXkGiA2jK3Ndp/view?usp=sharing)
-
-[👨‍🏫 Course Intro Slides](https://docs.google.com/presentation/d/1Outh5yuWk0CBXMpp6JeY0u6aqPJH1ilcMJGPUN_74gc/edit?usp=sharing)
-
-## Logistics
-
-* Two Three-Hour Weekly Sessions
-* Weekly Office Hours
-* Use [Azure Open Datasets](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-catalog#AzureDatabricks)
-* [Final Three Sessions](https://github.com/FourthBrain/databricks-zero-to-mlops/blob/main/docs/final-three-sessions.md)
+## Course Introduction
+* [🖥️ Course Intro Video](https://drive.google.com/file/d/1j-9NIFiDErluv4mgVWfgXkGiA2jK3Ndp/view?usp=sharing)
+* [👨‍🏫 Course Intro Slides](https://docs.google.com/presentation/d/1Outh5yuWk0CBXMpp6JeY0u6aqPJH1ilcMJGPUN_74gc/edit?usp=sharing)
 
 ## Schedule
 
