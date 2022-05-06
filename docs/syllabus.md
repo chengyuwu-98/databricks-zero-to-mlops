@@ -1,4 +1,4 @@
-## [🖥️ Course Intro Video](https://drive.google.com/file/d/1j-9NIFiDErluv4mgVWfgXkGiA2jK3Ndp/view?usp=sharing)
+## [🖥️ Course Intro Video](https://drive.google.com/file/d/1oNOYM8VuQbU6uK9C0y6R75izrjVMa1Ii/view?usp=sharing)
 
 ## 📅 Schedule
 
