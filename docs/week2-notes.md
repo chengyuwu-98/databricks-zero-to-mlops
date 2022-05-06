@@ -6,7 +6,7 @@
 * [Databricks ML Quickstart: Model Training](https://docs.microsoft.com/en-us/azure/databricks/_static/notebooks/mlflow/ml-quickstart-training.html) 
 
 ### Section 2:  End-to-End MLflow
-* [⏺️ Session 5 Zoom Recording, March 14, 2022](https://vimeo.com/701809558)
+* [⏺️ Session 5 Zoom Recording, March 16, 2022](https://vimeo.com/701809558)
   * [👨‍🏫 Databricks: Ingest Kaggle to AutoML Slides](https://docs.google.com/presentation/d/18_DU1MdTtdXKYyPU-T5B5dHwVf-0zS0LIKMug2AIbUs/edit?usp=sharing)
   * [👨‍🏫 Databricks: End to End ML with Hyperparameters Slides](https://docs.google.com/presentation/d/1WDYfsog6a9JpCnYouzkPt78VJrGWX1kAj7PcA-Z1n3Q/edit?usp=sharing)
 * [Invoke ML Model Example Github Project](https://github.com/noahgift/mlflow-project-best-practices)
