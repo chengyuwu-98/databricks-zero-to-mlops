@@ -26,6 +26,7 @@
 ### Section 3: Frameworks Comparison and Model Conversions 
 * [⏺️ Session 7 Zoom Recording, March 28, 2022](https://vimeo.com/701805030)
   * [👨‍🏫 MLOps Next Steps Slides](https://docs.google.com/presentation/d/1co5pk9O_A2lemOYgt8bmigvigicu7cH8H5f0fp5jAOs/edit?usp=sharing)
+  * [👨‍🏫 AutoML with SageMaker](https://docs.google.com/presentation/d/1URK144M_xlMzQrl5cWryVjIY-UzW7-XSN6twMWAtfGM/edit?usp=sharing)
 
 #### Learning Objectives
 * Compare multiple MLOps frameworks:  Databricks/MLFlow vs AWS Sagemaker vs Azure ML Studio vs MLRun vs Kubeflow vs Vertex AI
