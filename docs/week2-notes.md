@@ -1,4 +1,4 @@
-## Workshop A:  Getting with ML & MLflow tracking
+## Getting Started with ML & MLflow tracking
 
 ### Section 1:  Getting Started with MLflow
 * [⏺️ Session 4 Zoom Recording, March 14, 2022](https://vimeo.com/701807976)
